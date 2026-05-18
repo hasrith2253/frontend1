@@ -1,0 +1,6 @@
+frontend1/
+  netlify.toml
+  Blog_App_frontend/
+    package.json
+    src/
+    public/
