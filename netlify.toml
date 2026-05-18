@@ -1,6 +1,9 @@
-frontend1/
-  netlify.toml
-  Blog_App_frontend/
-    package.json
-    src/
-    public/
+[build]
+  base = "Blog_App_frontend"
+  command = "npm install && npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
